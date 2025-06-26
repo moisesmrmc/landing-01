@@ -1,18 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-:root--{
-
-}
+/* Foto de <a href="https://unsplash.com/es/@jvmesc_?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">james chan</a> en <a href="https://unsplash.com/es/fotos/la-motocicleta-pasa-un-semaforo-en-rojo-por-la-noche-LxI0fL3DVk4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      */
 body{
   font-family: Roboto, Helvetica, sans-serif;
   height: 100vh;
   display: flex;
   flex-direction: column;
   margin: 0; padding: 0;
+  box-sizing: border-box;
 }
 
-.logo{
-
-}
 #logo{
     color: #f9faf8;
     font-size: 24px;
@@ -22,7 +19,6 @@ body{
 .menu{
     display: flex;
     align-items: baseline;
-
     padding: 16px;
     background-color: #1f2937;
 }
@@ -31,7 +27,7 @@ body{
     display: flex;
     flex: 1;
     justify-content: flex-end;
-
+    border: solid green 2px;
     gap: 16px;
     
 }
@@ -40,5 +36,48 @@ body{
 .nav-right li, a{
     list-style: none;
     text-decoration: none;
+    color: #e5e7eb;
+    font-size: 16px;
+}
+
+.header{
+    border: solid red 2px;
+}
+
+.hero{
+    display: flex;
+    padding: 16px ;
+    background-color: #1f2937;
+}
+img{
+    width: 500px;
+    height: auto;
+}
+.text{
+    flex: 1;
+    border: solid pink 2px;
+}
+.image{
+    border: solid rgb(7, 241, 171) 2px;
+    display: flex;
+    flex: 1;
+    justify-content:center;
+    align-items: center;
+}
+h1{
     color: #f9faf8;
+    font-size: 48px;
+    margin: 6px;
+}
+h3{
+    color:#e5e7eb;
+    font-size: 18px;
+    margin: 6px;
+}
+.cta{
+    padding: 6px 28px;
+    color:#e5e7eb;
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: none;
 }
