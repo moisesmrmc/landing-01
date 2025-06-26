@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root--{
+
+}
+body{
+  font-family: Roboto, Helvetica, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0; padding: 0;
+}
+
+.logo{
+
+}
+#logo{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+}
+/* Menú flex y luego lo alineamos todo al baseline o center */
+.menu{
+    display: flex;
+    align-items: baseline;
+
+    padding: 16px;
+    background-color: #1f2937;
+}
+/* flex para que estén en horizontal - flex 1 para ocupar todo el ancho restante y lo justificamos al final */
+.nav-right{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+
+    gap: 16px;
+    
+}
+
+/* borrar puntos de listas y subrayado*/
+.nav-right li, a{
+    list-style: none;
+    text-decoration: none;
+    color: #f9faf8;
+}
