@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 /* Foto de <a href="https://unsplash.com/es/@jvmesc_?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">james chan</a> en <a href="https://unsplash.com/es/fotos/la-motocicleta-pasa-un-semaforo-en-rojo-por-la-noche-LxI0fL3DVk4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
       */
+      
 body{
   font-family: Roboto, Helvetica, sans-serif;
   height: 100vh;
@@ -19,7 +20,9 @@ body{
 .menu{
     display: flex;
     align-items: baseline;
-    padding: 16px;
+    /* espacio */
+    padding-block: 20px;
+    padding-inline: 120px;
     background-color: #1f2937;
 }
 /* flex para que estén en horizontal - flex 1 para ocupar todo el ancho restante y lo justificamos al final */
@@ -27,7 +30,7 @@ body{
     display: flex;
     flex: 1;
     justify-content: flex-end;
-    border: solid green 2px;
+
     gap: 16px;
     
 }
@@ -41,28 +44,28 @@ body{
 }
 
 .header{
-    border: solid red 2px;
+
 }
 
 .hero{
     display: flex;
-    padding: 16px ;
+    padding-block: 60px;
+    padding-inline: 120px;
     background-color: #1f2937;
 }
 img{
-    width: 500px;
+    max-width: 100%;
     height: auto;
 }
 .text{
     flex: 1;
-    border: solid pink 2px;
 }
 .image{
-    border: solid rgb(7, 241, 171) 2px;
     display: flex;
     flex: 1;
-    justify-content:center;
+    justify-content:right;
     align-items: center;
+
 }
 h1{
     color: #f9faf8;
@@ -74,10 +77,33 @@ h3{
     font-size: 18px;
     margin: 6px;
 }
+h2{
+    font-size: 36px;
+    text-align: center;
+    color: #1f2937;
+    font-weight: 900;
+}
 .cta{
     padding: 6px 28px;
     color:#e5e7eb;
     background-color: #3882f6;
     border-radius: 8px;
     border: none;
+}
+
+/* information section (4cards) */
+.information{
+    display: flex;
+    padding-inline:120px;
+    gap: 100px;
+    justify-content: center;
+    align-items: baseline;
+}
+.card{
+    text-align: center;
+    max-width: 220px;
+    border-radius: 16px;
+}
+.card img{
+    border-radius: 16px;
 }
