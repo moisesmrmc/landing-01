@@ -30,7 +30,6 @@ body{
     display: flex;
     flex: 1;
     justify-content: flex-end;
-
     gap: 16px;
     
 }
@@ -49,6 +48,7 @@ body{
 
 .hero{
     display: flex;
+    justify-content: center;
     padding-block: 60px;
     padding-inline: 120px;
     background-color: #1f2937;
@@ -60,6 +60,7 @@ img{
 .text{
     flex: 1;
 }
+
 .image{
     display: flex;
     flex: 1;
@@ -70,7 +71,7 @@ img{
 h1{
     color: #f9faf8;
     font-size: 48px;
-    margin: 6px;
+    margin-block: 6px;
 }
 h3{
     color:#e5e7eb;
@@ -84,6 +85,9 @@ h2{
     font-weight: 900;
 }
 .cta{
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
     padding: 6px 28px;
     color:#e5e7eb;
     background-color: #3882f6;
@@ -108,15 +112,15 @@ h2{
 .card img{
     border-radius: 16px;
 }
-
+/* quote section */
 .quote-container{
     margin-top: 90px;
     background-color: #e5e7eb;
-    padding-inline:120px;
-    padding-block: 60px;
+    padding-inline: 700px;
+    padding-block: 90px;
 }
 .quote{
-    text-align: center;
+    text-align: left;
     font-style: oblique;
     font-size: 36px;
     font-weight:200;
@@ -138,11 +142,7 @@ h2{
     align-items:center;
     background-color: #3882f6;
 }
-.text-cta{
-
-}
 .text-cta h3, .text-cta p{
-
     color: #e5e7eb;
     margin: 6px;
 }
